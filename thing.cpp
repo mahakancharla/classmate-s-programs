@@ -1,11 +1,21 @@
-print("What's the weather like? (Enter your input as integers")
-print("1. Rainy")
-print("2. Hot")
-print("3. Freezing") 
-weather  = input()
-if (input == 1):
-  print("Use an umbrella")
-elif (input == 2):
-  print("Wear shorts")
-else:
-  print("Wear a snow jacket")
+#include <iostream>
+using namespace std; 
+int main()
+{
+    int weather;
+    cout << "What's the weather like? (Enter your input as integers)" << endl;
+    cout << "1. Rainy" << endl;
+    cout << "2. Hot" << endl;
+    cout << "3. Freezing" << endl;
+    cin >> weather;
+    if (weather == 1) {
+        cout << "Use an umbrella" << endl;
+    }
+    else if (weather == 2) {
+        cout << "Wear shorts" << endl;
+    }
+    else {
+        cout << "Wear a snow jacket" << endl;
+    }
+
+}

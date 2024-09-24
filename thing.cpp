@@ -1,3 +1,7 @@
+//Name: Maha
+//Program: Classmate Programs
+//Date: 9/24/24
+
 #include <iostream>
 using namespace std; 
 int main()
